@@ -4,7 +4,6 @@
 
 #GITKRAKEN
 wget https://release.gitkraken.com/linux/gitkraken-amd64.deb
-sudo dpkg -i gitkraken-amd64.deb
+dpkg -i gitkraken-amd64.deb
 echo -e "git-kraken OK\n"
 sleep 5
-

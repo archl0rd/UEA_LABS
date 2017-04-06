@@ -2,6 +2,10 @@
 # archl0rd - adrianofreitas.me
 # 03/04/2017
 # Script para instalar várias plataformas de desenvolvimento
+### ATENCAO ###
+## para que os programas instalados com o umake
+## esteja disponiveis para todos os usuarios
+## escolha o diretorio /opt para instalação
 
 ## ubuntu-make
 add-apt-repository ppa:ubuntu-desktop/ubuntu-make --yes
@@ -10,13 +14,13 @@ apt-get install ubuntu-make --yes
 
 ## Para instalar o pycharm, use o comando:
 apt-get update
-umake ide pycharm 
+umake ide pycharm
 echo -e "PYCHARM OK\n"
 sleep 5
 
 ##Para instalar o IntelliJ IDEA Community Edition, use o comando:
 apt-get update
-umake ide idea 
+umake ide idea
 echo -e "IntelliJ OK\n"
 sleep 5
 
@@ -33,13 +37,13 @@ sleep 5
 # umake ide eclipse-jee
 
 ## Para instalar Unity 3D, use o comando:
-# umake games unity3d 
+# umake games unity3d
 
 ## Para instalar IDE Arduino, use o comando:
-# umake ide arduino 
+# umake ide arduino
 
 ## Para instalar phpstorm, use o comando:
-# umake ide phpstorm 
+# umake ide phpstorm
 #echo "phpstorm OK"
 #sleep 5
 
@@ -47,10 +51,4 @@ sleep 5
 # umake android android-studio
 
 ## Para instalar o Firefox Dev use o comando:
-# umake web firefox-dev 
-
-
-
-
-
-
+# umake web firefox-dev
