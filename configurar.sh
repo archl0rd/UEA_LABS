@@ -1,6 +1,5 @@
 #!/bin/bash
 # archl0rd - adrianofreitas.me
-# 14/04/2017
 apt-get update
 cd script
 sh java8.sh
