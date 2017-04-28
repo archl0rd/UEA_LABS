@@ -24,4 +24,5 @@ sh escritorio.sh
 sh internet.sh
 sh programas-basicos.sh
 sh wireshark.sh
+sh postresql-9.6.sh
 cd ..
